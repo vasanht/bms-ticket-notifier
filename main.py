@@ -15,6 +15,7 @@ from datetime import datetime
 from dataclasses import dataclass, field
 from urllib.parse import urlparse
 import requests
+from curl_cffi import requests as curl_requests
 
 # ──────────────────────────────────────────────────────────────────────
 # CONFIGURATION — edit these or set via env vars
@@ -170,12 +171,14 @@ def fetch_bms(event_code, date_code, region_code, region_slug,
         "lat": lat, "lon": lon,
     }
     try:
-        resp = requests.get(API_URL, headers=headers,
-                            params=params, timeout=15)
+        resp = curl_requests.get(
+            API_URL, headers=headers, params=params,
+            timeout=15, impersonate="chrome",
+        )
         if resp.status_code == 200:
             return resp.json()
         print(f"  HTTP {resp.status_code}")
-    except requests.RequestException as e:
+    except Exception as e:
         print(f"  Request failed: {e}")
     return None
 
