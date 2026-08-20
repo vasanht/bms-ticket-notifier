@@ -15,59 +15,11 @@
       "cat": "LOUNGER",
       "price": "508.34",
       "status": "3"
-    },
-    "BWCB|51692|20260821|ELITE": {
-      "venue": "Broadway Cinemas: Coimbatore",
-      "time": "04:00 PM",
-      "date": "20260821",
-      "cat": "ELITE",
-      "price": "508.34",
-      "status": "3"
-    },
-    "BWCB|51692|20260821|LOUNGER": {
-      "venue": "Broadway Cinemas: Coimbatore",
-      "time": "04:00 PM",
-      "date": "20260821",
-      "cat": "LOUNGER",
-      "price": "508.34",
-      "status": "3"
-    },
-    "BWCB|51685|20260821|ELITE": {
-      "venue": "Broadway Cinemas: Coimbatore",
-      "time": "07:35 PM",
-      "date": "20260821",
-      "cat": "ELITE",
-      "price": "508.34",
-      "status": "3"
-    },
-    "BWCB|51685|20260821|LOUNGER": {
-      "venue": "Broadway Cinemas: Coimbatore",
-      "time": "07:35 PM",
-      "date": "20260821",
-      "cat": "LOUNGER",
-      "price": "508.34",
-      "status": "3"
-    },
-    "BWCB|51693|20260821|ELITE": {
-      "venue": "Broadway Cinemas: Coimbatore",
-      "time": "11:15 PM",
-      "date": "20260821",
-      "cat": "ELITE",
-      "price": "508.34",
-      "status": "3"
-    },
-    "BWCB|51693|20260821|LOUNGER": {
-      "venue": "Broadway Cinemas: Coimbatore",
-      "time": "11:15 PM",
-      "date": "20260821",
-      "cat": "LOUNGER",
-      "price": "508.34",
-      "status": "3"
     }
   },
   "dates": {
-    "20260820": "AVAILABLE",
-    "20260821": "BOOKABLE",
+    "20260820": "BOOKABLE",
+    "20260821": "AVAILABLE",
     "20260822": "AVAILABLE",
     "20260823": "AVAILABLE",
     "20260824": "NOT_OPEN",
